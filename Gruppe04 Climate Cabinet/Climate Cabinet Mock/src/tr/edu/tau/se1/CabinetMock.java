@@ -41,7 +41,7 @@ public class CabinetMock extends Thread {
 			try {
 				CabinetMock.log("Listening for a connection");
 
-				// Call accept() to receive the next connection
+				// Call accept(); to receive the next connection
 				Socket socket = serverSocket.accept();
 
 				// Pass the socket to the RequestHandler thread for processing
@@ -418,7 +418,7 @@ class RequestHandler extends Thread {
 	}
 
 	private String processStartMessage(StringTokenizer tokenizer) {
-		// Expected message: "CabinetControl1|Armin Müllner|Admin|10";
+		// Expected message: "CabinetControl1|Armin Mï¿½llner|Admin|10";
 		String retVal = "Cabinet is connected to <<";
 		this.station = tokenizer.nextToken();
 		retVal += this.station + ">> operated by <<";
