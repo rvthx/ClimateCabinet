@@ -4,4 +4,4 @@
 
 * Documentation has been uploaded as pdf, you can find it above.
 
-Team: @rvthx @leb2ic
+Team: [@zeynepsenell](https://github.com/zeynepsenell), [@rvthx](https://github.com/rvthx), [@leb2ic](https://github.com/leb2ic), [@ozlemsahin](https://github.com/ozlemsahin)
